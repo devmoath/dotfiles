@@ -145,4 +145,4 @@ export HERD_PHP_83_INI_SCAN_DIR="$HOME/Library/Application Support/Herd/config/p
 # Herd injected PHP 7.4 configuration.
 export HERD_PHP_74_INI_SCAN_DIR="$HOME/Library/Application Support/Herd/config/php/74/"
 
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
