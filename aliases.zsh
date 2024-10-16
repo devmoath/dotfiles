@@ -8,15 +8,15 @@ alias projects="cd $HOME/Code"
 alias sites="cd $HOME/Herd"
 
 # Laravel
-alias a="herd php artisan"
-alias fresh="herd php artisan migrate:fresh --seed"
-alias tin="herd php artisan tinker"
-alias seed="herd php artisan db:seed"
+alias a="artisan"
+alias fresh="artisan migrate:fresh --seed"
+alias tin="artisan tinker"
+alias seed="artisan db:seed"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
-alias composer="herd composer"
-alias php="herd php"
+alias composer="composer"
+alias php="php"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
