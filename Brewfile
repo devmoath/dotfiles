@@ -38,6 +38,7 @@ brew "wget"
 brew "yarn"
 brew "zsh"
 cask "appcleaner", args: { appdir: "/Applications" }
+cask "batteries"
 cask "chatgpt", args: { appdir: "/Applications" }
 cask "font-jetbrains-mono"
 cask "github"
@@ -53,6 +54,7 @@ cask "postman", args: { appdir: "/Applications" }
 cask "qlmarkdown"
 cask "quicklook-json"
 cask "raycast", args: { appdir: "/Applications" }
+cask "ssh-config-editor"
 cask "the-unarchiver", args: { appdir: "/Applications" }
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
