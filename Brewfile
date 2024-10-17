@@ -37,25 +37,25 @@ brew "webkit2png"
 brew "wget"
 brew "yarn"
 brew "zsh"
-cask "appcleaner", args: { appdir: "/Applications" }
+cask "appcleaner"
 cask "batteries"
-cask "chatgpt", args: { appdir: "/Applications" }
+cask "chatgpt"
 cask "font-jetbrains-mono"
 cask "github"
-cask "google-chrome", args: { appdir: "/Applications" }
-cask "herd", args: { appdir: "/Applications" }
-cask "hyper", args: { appdir: "/Applications" }
+cask "google-chrome"
+cask "herd"
+cask "hyper"
 cask "imageoptim"
-cask "jetbrains-toolbox", args: { appdir: "/Applications" }
+cask "jetbrains-toolbox"
 cask "microsoft-auto-update"
-cask "microsoft-office", args: { appdir: "/Applications" }
-cask "microsoft-teams", args: { appdir: "/Applications" }
-cask "postman", args: { appdir: "/Applications" }
+cask "microsoft-office"
+cask "microsoft-teams"
+cask "postman"
 cask "qlmarkdown"
 cask "quicklook-json"
-cask "raycast", args: { appdir: "/Applications" }
+cask "raycast"
 cask "ssh-config-editor"
-cask "the-unarchiver", args: { appdir: "/Applications" }
+cask "the-unarchiver"
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541

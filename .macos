@@ -20,7 +20,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Set computer name (as done via System Preferences → Sharing)
 sudo scutil --set ComputerName "Moath’s MacBook Pro"
 sudo scutil --set HostName "Moath’s MacBook Pro"
-sudo scutil --set LocalHostName "Moath’s MacBook Pro"
+sudo scutil --set LocalHostName "Moaths-MacBook-Pro"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Moath’s MacBook Pro"
 
 # Disable the sound effects on boot
