@@ -9,14 +9,13 @@ alias sites="cd $HOME/Herd"
 
 # Laravel
 alias a="artisan"
+alias migrate="artisan migrate"
 alias fresh="artisan migrate:fresh --seed"
 alias tin="artisan tinker"
 alias seed="artisan db:seed"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
-alias composer="composer"
-alias php="php"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
