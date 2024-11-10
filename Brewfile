@@ -43,6 +43,7 @@ cask "appcleaner"
 cask "batteries"
 cask "chatgpt"
 cask "codeedit"
+cask "discord"
 cask "font-jetbrains-mono"
 cask "github"
 cask "google-chrome"
@@ -64,11 +65,16 @@ cask "subler"
 cask "the-unarchiver"
 cask "visual-studio-code"
 cask "vlc"
+mas "Developer", id: 640199958
+mas "Infuse", id: 1136220934
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Playgrounds", id: 1496833156
 mas "Sequel Ace", id: 1518036000
 mas "Telegram", id: 747648890
+mas "TestFlight", id: 899247664
+mas "Xcode", id: 497799835
 vscode "aryeh.copy-without-indent"
 vscode "bmewburn.vscode-intelephense-client"
 vscode "bradlc.vscode-tailwindcss"
