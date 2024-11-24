@@ -19,6 +19,10 @@ fi
 rm -rf $HOME/.zshrc
 ln -sw $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Removes .hyper.js from $HOME (if it exists) and symlinks the .hyper.js file from the .dotfiles
+rm -rf $HOME/.hyper.js
+ln -sw $HOME/.dotfiles/.hyper.js $HOME/.hyper.js
+
 # Update Homebrew recipes
 brew update
 
