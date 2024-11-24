@@ -5,9 +5,6 @@ add_to_path() {
   fi
 }
 
-# Load dotfiles binaries
-add_to_path "$DOTFILES/bin"
-
 # Load global Composer tools
 add_to_path "$HOME/.composer/vendor/bin"
 
