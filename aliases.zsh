@@ -1,6 +1,7 @@
 # Shortcuts
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
-alias ll="eza -la --total-size"
+alias ll="eza -la"
+alias lll="eza -la --total-size"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
