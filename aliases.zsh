@@ -11,8 +11,8 @@ alias sites="cd $HOME/Herd"
 # Laravel
 alias a="artisan"
 alias migrate="artisan migrate"
+alias migratef="artisan migrate:fresh"
 alias queue="artisan queue:work"
-alias fresh="artisan migrate:fresh --seed"
 alias tin="artisan tinker"
 alias seed="artisan db:seed"
 
