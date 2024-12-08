@@ -1,4 +1,3 @@
-tap "buo/cask-upgrade"
 tap "homebrew/bundle"
 tap "homebrew/services"
 brew "openssl@3"
@@ -51,7 +50,6 @@ cask "imageoptim"
 cask "jetbrains-toolbox"
 cask "mediainfo"
 cask "microsoft-auto-update"
-cask "microsoft-office"
 cask "microsoft-teams"
 cask "postman"
 cask "qbittorrent"
@@ -60,10 +58,15 @@ cask "quicklook-json"
 cask "raycast"
 cask "ssh-config-editor"
 cask "subler"
-cask "the-unarchiver"
 cask "vlc"
 mas "Developer", id: 640199958
 mas "Infuse", id: 1136220934
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft Outlook", id: 985367838
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
+mas "OneDrive", id: 823766827
 mas "Playgrounds", id: 1496833156
 mas "Telegram", id: 747648890
 mas "TestFlight", id: 899247664
