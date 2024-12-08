@@ -176,6 +176,9 @@ sudo systemsetup -settimezone "Asia/Riyadh" > /dev/null
 # Stop iTunes from responding to the keyboard media keys
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
+# Disable the inline input switcher pop up
+defaults write kCFPreferencesAnyApplication TSMLanguageIndicatorEnabled 0
+
 ###############################################################################
 # Energy saving                                                               #
 ###############################################################################
