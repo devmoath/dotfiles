@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
+tap "ngrok/ngrok"
 brew "openssl@3"
 brew "autoconf"
 brew "python@3.12"
@@ -49,9 +50,11 @@ cask "herd"
 cask "hyper"
 cask "imageoptim"
 cask "jetbrains-toolbox"
+cask "macupdater"
 cask "mediainfo"
 cask "microsoft-auto-update"
 cask "microsoft-teams"
+cask "ngrok"
 cask "postman"
 cask "qbittorrent"
 cask "qlmarkdown"
@@ -72,3 +75,4 @@ mas "Playgrounds", id: 1496833156
 mas "Telegram", id: 747648890
 mas "TestFlight", id: 899247664
 mas "Xcode", id: 497799835
+mas "‎WhatsApp", id: 310633997
