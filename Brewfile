@@ -62,6 +62,7 @@ cask "quicklook-json"
 cask "raycast"
 cask "ssh-config-editor"
 cask "subler"
+cask "tinkerwell"
 cask "vlc"
 mas "Developer", id: 640199958
 mas "Infuse", id: 1136220934
@@ -74,5 +75,6 @@ mas "OneDrive", id: 823766827
 mas "Playgrounds", id: 1496833156
 mas "Telegram", id: 747648890
 mas "TestFlight", id: 899247664
+mas "The Unarchiver", id: 425424353
 mas "Xcode", id: 497799835
 mas "‎WhatsApp", id: 310633997
