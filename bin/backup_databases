@@ -1,0 +1,10 @@
+#!/bin/bash
+
+databases=$(mysql -u root -e "SHOW DATABASES;" | tr -d "| " | grep -v Database)
+
+for database in $databases; do
+    if [[ "$database" != "information_schema" ]] && [[ "$database" != "performance_schema" ]] && [[ "$database" != "mysql" ]] && [[ "$database" != "sys" ]] && [[ "$database" != _* ]] ; then
+        echo "Dumping database: $database"
+        mysqldump -u root --databases $database > "$HOME/Downloads/$database-$(date +%Y%m%d)-dump.sql"
+    fi
+done
