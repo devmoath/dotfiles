@@ -27,6 +27,10 @@ ln -sw $HOME/.dotfiles/.hyper.js $HOME/.hyper.js
 rm -rf $HOME/.gitignore_global
 ln -sw $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
 
+# Removes .gitconfig from $HOME (if it exists) and symlinks the .gitconfig file from the .dotfiles
+rm -rf $HOME/.gitconfig
+ln -sw $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
+
 # Update Homebrew recipes
 brew update
 
