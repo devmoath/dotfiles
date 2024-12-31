@@ -23,6 +23,10 @@ ln -sw $HOME/.dotfiles/.zshrc $HOME/.zshrc
 rm -rf $HOME/.hyper.js
 ln -sw $HOME/.dotfiles/.hyper.js $HOME/.hyper.js
 
+# Removes .gitignore_global from $HOME (if it exists) and symlinks the .gitignore_global file from the .dotfiles
+rm -rf $HOME/.gitignore_global
+ln -sw $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
+
 # Update Homebrew recipes
 brew update
 
