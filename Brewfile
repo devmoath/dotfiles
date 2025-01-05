@@ -58,7 +58,6 @@ cask "microsoft-teams"
 cask "ngrok"
 cask "postman"
 cask "qbittorrent"
-cask "qlmarkdown"
 cask "quicklook-json"
 cask "raycast"
 cask "runjs"
@@ -67,6 +66,7 @@ cask "subler"
 cask "tinkerwell"
 cask "vlc"
 mas "Developer", id: 640199958
+mas "DevUtils", id: 1533756032
 mas "Infuse", id: 1136220934
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
