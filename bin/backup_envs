@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd "$HOME" || exit;
+
+files=($(find Herd Code -name '.env' -print -maxdepth 2 -print))
+
+for file in "${files[@]}"; do
+    file_name="$(echo "$file" | sed 's/\//-/g' | sed 's/\.env//')$(date +%Y%m%d).env"
+
+    echo "$file"
+    echo "$HOME/Downloads/$file_name"
+    cp "$file" "$HOME/Downloads/$file_name"
+done
