@@ -95,6 +95,8 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 
 export ARTISAN_OPEN_ON_MAKE_EDITOR=phpstorm
 
+export STARSHIP_CONFIG=$HOME/.dotfiles/starship.toml
+
 # You may need to manually set your language environment
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
