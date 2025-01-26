@@ -44,6 +44,7 @@ brew "webkit2png"
 brew "wget"
 brew "yarn"
 brew "zsh"
+brew "shivammathur/extensions/pcov@8.3"
 brew "shivammathur/extensions/pcov@8.4"
 cask "4k-video-downloader+"
 cask "appcleaner"
@@ -85,5 +86,5 @@ mas "Playgrounds", id: 1496833156
 mas "Telegram", id: 747648890
 mas "TestFlight", id: 899247664
 mas "The Unarchiver", id: 425424353
+mas "WhatsApp", id: 310633997
 mas "Xcode", id: 497799835
-mas "‎WhatsApp", id: 310633997
