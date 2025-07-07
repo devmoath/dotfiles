@@ -2,6 +2,7 @@
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias ll="eza -la"
 alias lll="eza -la --total-size"
+alias timestamp="date +%s"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
